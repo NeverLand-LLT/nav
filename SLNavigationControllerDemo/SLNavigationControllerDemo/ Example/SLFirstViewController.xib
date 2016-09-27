@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLFirstViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Pv-6e-VxZ">
+                    <rect key="frame" x="86" y="155" width="202" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="202" id="AQJ-0q-Pev"/>
+                        <constraint firstAttribute="height" constant="54" id="GGk-Yf-QrH"/>
+                    </constraints>
+                    <state key="normal" title="PUSH"/>
+                    <connections>
+                        <action selector="ClickPushButton:" destination="-1" eventType="touchUpInside" id="DVl-29-KqV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oI7-za-tT6">
+                    <rect key="frame" x="86" y="294" width="202" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="202" id="V3Y-Gd-Do0"/>
+                        <constraint firstAttribute="height" constant="54" id="nTH-dm-2qH"/>
+                    </constraints>
+                    <state key="normal" title="Pop"/>
+                    <connections>
+                        <action selector="ClickPopButton:" destination="-1" eventType="touchUpInside" id="8Fx-dJ-a3a"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9Pv-6e-VxZ" secondAttribute="trailing" constant="87" id="5fe-AZ-DxL"/>
+                <constraint firstItem="9Pv-6e-VxZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="155" id="BYU-0N-OER"/>
+                <constraint firstAttribute="trailing" secondItem="oI7-za-tT6" secondAttribute="trailing" constant="87" id="H4H-hb-ZXU"/>
+                <constraint firstItem="9Pv-6e-VxZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="86" id="Kfo-QB-y3H"/>
+                <constraint firstItem="oI7-za-tT6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="86" id="LLe-n5-Yfo"/>
+                <constraint firstAttribute="bottom" secondItem="oI7-za-tT6" secondAttribute="bottom" constant="319" id="R2u-zU-KWc"/>
+                <constraint firstItem="oI7-za-tT6" firstAttribute="top" secondItem="9Pv-6e-VxZ" secondAttribute="bottom" constant="85" id="vqg-WK-ao5"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="303.5" y="230.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521ADBE81D81044B00E08F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADBE71D81044B00E08F4F /* main.m */; };
+		521ADBEB1D81044B00E08F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADBEA1D81044B00E08F4F /* AppDelegate.m */; };
+		521ADBF31D81044B00E08F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521ADBF21D81044B00E08F4F /* Assets.xcassets */; };
+		521ADBF61D81044B00E08F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521ADBF41D81044B00E08F4F /* LaunchScreen.storyboard */; };
+		521ADC011D81044B00E08F4F /* SLNavigationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC001D81044B00E08F4F /* SLNavigationControllerDemoTests.m */; };
+		521ADC0C1D81044B00E08F4F /* SLNavigationControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC0B1D81044B00E08F4F /* SLNavigationControllerDemoUITests.m */; };
+		521ADC201D81056200E08F4F /* SLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC1B1D81056200E08F4F /* SLBarButtonItem.m */; };
+		521ADC211D81056200E08F4F /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC1D1D81056200E08F4F /* SLNavigationController.m */; };
+		521ADC221D81056200E08F4F /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC1F1D81056200E08F4F /* SLViewController.m */; };
+		521ADC2A1D8108D300E08F4F /* SLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC291D8108D300E08F4F /* SLListViewController.m */; };
+		521ADC371D810D1D00E08F4F /* SLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC351D810D1D00E08F4F /* SLFirstViewController.m */; };
+		521ADC381D810D1D00E08F4F /* SLFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521ADC361D810D1D00E08F4F /* SLFirstViewController.xib */; };
+		521ADC3C1D81110C00E08F4F /* SLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC3A1D81110C00E08F4F /* SLSecondViewController.m */; };
+		521ADC3D1D81110C00E08F4F /* SLSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521ADC3B1D81110C00E08F4F /* SLSecondViewController.xib */; };
+		521ADC411D81185D00E08F4F /* SLNavigationBarButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC401D81185D00E08F4F /* SLNavigationBarButtonViewController.m */; };
+		521ADC451D813D9000E08F4F /* SLTitleViewWithViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521ADC441D813D9000E08F4F /* SLTitleViewWithViewController.m */; };
+		84C86E021D863D9500646BB9 /* SLPopTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C86E011D863D9500646BB9 /* SLPopTransitionAnimation.m */; };
+		84C86E051D863E0800646BB9 /* SLPushTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C86E041D863E0800646BB9 /* SLPushTransitionAnimation.m */; };
+		EAEB1795551EEF2F1522551A /* libPods-SLNavigationControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3DC75F278893AF64E426B1 /* libPods-SLNavigationControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521ADBFD1D81044B00E08F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521ADBDB1D81044B00E08F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521ADBE21D81044B00E08F4F;
+			remoteInfo = SLNavigationControllerDemo;
+		};
+		521ADC081D81044B00E08F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521ADBDB1D81044B00E08F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521ADBE21D81044B00E08F4F;
+			remoteInfo = SLNavigationControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521ADBE31D81044B00E08F4F /* SLNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521ADBE71D81044B00E08F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521ADBE91D81044B00E08F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		521ADBEA1D81044B00E08F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		521ADBF21D81044B00E08F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521ADBF51D81044B00E08F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521ADBF71D81044B00E08F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521ADBFC1D81044B00E08F4F /* SLNavigationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLNavigationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521ADC001D81044B00E08F4F /* SLNavigationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNavigationControllerDemoTests.m; sourceTree = "<group>"; };
+		521ADC021D81044B00E08F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521ADC071D81044B00E08F4F /* SLNavigationControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLNavigationControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521ADC0B1D81044B00E08F4F /* SLNavigationControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNavigationControllerDemoUITests.m; sourceTree = "<group>"; };
+		521ADC0D1D81044B00E08F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521ADC1A1D81056200E08F4F /* SLBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBarButtonItem.h; sourceTree = "<group>"; };
+		521ADC1B1D81056200E08F4F /* SLBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBarButtonItem.m; sourceTree = "<group>"; };
+		521ADC1C1D81056200E08F4F /* SLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
+		521ADC1D1D81056200E08F4F /* SLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
+		521ADC1E1D81056200E08F4F /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		521ADC1F1D81056200E08F4F /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		521ADC281D8108D300E08F4F /* SLListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLListViewController.h; sourceTree = "<group>"; };
+		521ADC291D8108D300E08F4F /* SLListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLListViewController.m; sourceTree = "<group>"; };
+		521ADC341D810D1D00E08F4F /* SLFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLFirstViewController.h; sourceTree = "<group>"; };
+		521ADC351D810D1D00E08F4F /* SLFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLFirstViewController.m; sourceTree = "<group>"; };
+		521ADC361D810D1D00E08F4F /* SLFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLFirstViewController.xib; sourceTree = "<group>"; };
+		521ADC391D81110C00E08F4F /* SLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSecondViewController.h; sourceTree = "<group>"; };
+		521ADC3A1D81110C00E08F4F /* SLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSecondViewController.m; sourceTree = "<group>"; };
+		521ADC3B1D81110C00E08F4F /* SLSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSecondViewController.xib; sourceTree = "<group>"; };
+		521ADC3F1D81185D00E08F4F /* SLNavigationBarButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNavigationBarButtonViewController.h; sourceTree = "<group>"; };
+		521ADC401D81185D00E08F4F /* SLNavigationBarButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNavigationBarButtonViewController.m; sourceTree = "<group>"; };
+		521ADC431D813D9000E08F4F /* SLTitleViewWithViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTitleViewWithViewController.h; sourceTree = "<group>"; };
+		521ADC441D813D9000E08F4F /* SLTitleViewWithViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTitleViewWithViewController.m; sourceTree = "<group>"; };
+		6CCD9B3D61478FCAEDA54DDD /* Pods-SLNavigationControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLNavigationControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLNavigationControllerDemo/Pods-SLNavigationControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		84C86E001D863D9500646BB9 /* SLPopTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPopTransitionAnimation.h; sourceTree = "<group>"; };
+		84C86E011D863D9500646BB9 /* SLPopTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPopTransitionAnimation.m; sourceTree = "<group>"; };
+		84C86E031D863E0800646BB9 /* SLPushTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPushTransitionAnimation.h; sourceTree = "<group>"; };
+		84C86E041D863E0800646BB9 /* SLPushTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPushTransitionAnimation.m; sourceTree = "<group>"; };
+		B492E28F48C8D12BC63D5168 /* Pods-SLNavigationControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLNavigationControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLNavigationControllerDemo/Pods-SLNavigationControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3DC75F278893AF64E426B1 /* libPods-SLNavigationControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SLNavigationControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521ADBE01D81044B00E08F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEB1795551EEF2F1522551A /* libPods-SLNavigationControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521ADBF91D81044B00E08F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521ADC041D81044B00E08F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6235B6C34816277C8DDD1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DC75F278893AF64E426B1 /* libPods-SLNavigationControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D918DCB1F30830B7AFFCFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B492E28F48C8D12BC63D5168 /* Pods-SLNavigationControllerDemo.debug.xcconfig */,
+				6CCD9B3D61478FCAEDA54DDD /* Pods-SLNavigationControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		521ADBDA1D81044B00E08F4F = {
+			isa = PBXGroup;
+			children = (
+				521ADBE51D81044B00E08F4F /* SLNavigationControllerDemo */,
+				521ADBFF1D81044B00E08F4F /* SLNavigationControllerDemoTests */,
+				521ADC0A1D81044B00E08F4F /* SLNavigationControllerDemoUITests */,
+				521ADBE41D81044B00E08F4F /* Products */,
+				3D918DCB1F30830B7AFFCFB1 /* Pods */,
+				0A6235B6C34816277C8DDD1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		521ADBE41D81044B00E08F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521ADBE31D81044B00E08F4F /* SLNavigationControllerDemo.app */,
+				521ADBFC1D81044B00E08F4F /* SLNavigationControllerDemoTests.xctest */,
+				521ADC071D81044B00E08F4F /* SLNavigationControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521ADBE51D81044B00E08F4F /* SLNavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC191D81056200E08F4F /* SLNavigationController */,
+				521ADC231D81064A00E08F4F /* Demo */,
+				521ADBE61D81044B00E08F4F /* Supporting Files */,
+			);
+			path = SLNavigationControllerDemo;
+			sourceTree = "<group>";
+		};
+		521ADBE61D81044B00E08F4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521ADBF21D81044B00E08F4F /* Assets.xcassets */,
+				521ADBF41D81044B00E08F4F /* LaunchScreen.storyboard */,
+				521ADBF71D81044B00E08F4F /* Info.plist */,
+				521ADBE71D81044B00E08F4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521ADBFF1D81044B00E08F4F /* SLNavigationControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC001D81044B00E08F4F /* SLNavigationControllerDemoTests.m */,
+				521ADC021D81044B00E08F4F /* Info.plist */,
+			);
+			path = SLNavigationControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		521ADC0A1D81044B00E08F4F /* SLNavigationControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC0B1D81044B00E08F4F /* SLNavigationControllerDemoUITests.m */,
+				521ADC0D1D81044B00E08F4F /* Info.plist */,
+			);
+			path = SLNavigationControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		521ADC191D81056200E08F4F /* SLNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC2B1D810AEE00E08F4F /* TransitionAnimation */,
+				521ADC1A1D81056200E08F4F /* SLBarButtonItem.h */,
+				521ADC1B1D81056200E08F4F /* SLBarButtonItem.m */,
+				521ADC1C1D81056200E08F4F /* SLNavigationController.h */,
+				521ADC1D1D81056200E08F4F /* SLNavigationController.m */,
+				521ADC1E1D81056200E08F4F /* SLViewController.h */,
+				521ADC1F1D81056200E08F4F /* SLViewController.m */,
+			);
+			path = SLNavigationController;
+			sourceTree = "<group>";
+		};
+		521ADC231D81064A00E08F4F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC461D815FD000E08F4F /* First:List、毛玻璃、状态栏 */,
+				521ADC331D810C7100E08F4F /* 页面跳转、Title */,
+				521ADC3E1D81175500E08F4F /* 添加按钮、按钮集合 */,
+				521ADC421D813C9E00E08F4F /* TitleView */,
+			);
+			name = Demo;
+			path = " Example";
+			sourceTree = "<group>";
+		};
+		521ADC2B1D810AEE00E08F4F /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				84C86E001D863D9500646BB9 /* SLPopTransitionAnimation.h */,
+				84C86E011D863D9500646BB9 /* SLPopTransitionAnimation.m */,
+				84C86E031D863E0800646BB9 /* SLPushTransitionAnimation.h */,
+				84C86E041D863E0800646BB9 /* SLPushTransitionAnimation.m */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		521ADC331D810C7100E08F4F /* 页面跳转、Title */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC341D810D1D00E08F4F /* SLFirstViewController.h */,
+				521ADC351D810D1D00E08F4F /* SLFirstViewController.m */,
+				521ADC361D810D1D00E08F4F /* SLFirstViewController.xib */,
+				521ADC391D81110C00E08F4F /* SLSecondViewController.h */,
+				521ADC3A1D81110C00E08F4F /* SLSecondViewController.m */,
+				521ADC3B1D81110C00E08F4F /* SLSecondViewController.xib */,
+			);
+			name = "页面跳转、Title";
+			sourceTree = "<group>";
+		};
+		521ADC3E1D81175500E08F4F /* 添加按钮、按钮集合 */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC3F1D81185D00E08F4F /* SLNavigationBarButtonViewController.h */,
+				521ADC401D81185D00E08F4F /* SLNavigationBarButtonViewController.m */,
+			);
+			name = "添加按钮、按钮集合";
+			sourceTree = "<group>";
+		};
+		521ADC421D813C9E00E08F4F /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				521ADC431D813D9000E08F4F /* SLTitleViewWithViewController.h */,
+				521ADC441D813D9000E08F4F /* SLTitleViewWithViewController.m */,
+			);
+			name = TitleView;
+			sourceTree = "<group>";
+		};
+		521ADC461D815FD000E08F4F /* First:List、毛玻璃、状态栏 */ = {
+			isa = PBXGroup;
+			children = (
+				521ADBE91D81044B00E08F4F /* AppDelegate.h */,
+				521ADBEA1D81044B00E08F4F /* AppDelegate.m */,
+				521ADC281D8108D300E08F4F /* SLListViewController.h */,
+				521ADC291D8108D300E08F4F /* SLListViewController.m */,
+			);
+			name = "First:List、毛玻璃、状态栏";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521ADBE21D81044B00E08F4F /* SLNavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521ADC101D81044B00E08F4F /* Build configuration list for PBXNativeTarget "SLNavigationControllerDemo" */;
+			buildPhases = (
+				A7B723C8EED1F1B7EAA3711D /* [CP] Check Pods Manifest.lock */,
+				521ADBDF1D81044B00E08F4F /* Sources */,
+				521ADBE01D81044B00E08F4F /* Frameworks */,
+				521ADBE11D81044B00E08F4F /* Resources */,
+				B48E6A429AF6B00E4B5464A7 /* [CP] Embed Pods Frameworks */,
+				51E928F37E0E681177305F04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLNavigationControllerDemo;
+			productName = SLNavigationControllerDemo;
+			productReference = 521ADBE31D81044B00E08F4F /* SLNavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521ADBFB1D81044B00E08F4F /* SLNavigationControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521ADC131D81044B00E08F4F /* Build configuration list for PBXNativeTarget "SLNavigationControllerDemoTests" */;
+			buildPhases = (
+				521ADBF81D81044B00E08F4F /* Sources */,
+				521ADBF91D81044B00E08F4F /* Frameworks */,
+				521ADBFA1D81044B00E08F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521ADBFE1D81044B00E08F4F /* PBXTargetDependency */,
+			);
+			name = SLNavigationControllerDemoTests;
+			productName = SLNavigationControllerDemoTests;
+			productReference = 521ADBFC1D81044B00E08F4F /* SLNavigationControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521ADC061D81044B00E08F4F /* SLNavigationControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521ADC161D81044B00E08F4F /* Build configuration list for PBXNativeTarget "SLNavigationControllerDemoUITests" */;
+			buildPhases = (
+				521ADC031D81044B00E08F4F /* Sources */,
+				521ADC041D81044B00E08F4F /* Frameworks */,
+				521ADC051D81044B00E08F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521ADC091D81044B00E08F4F /* PBXTargetDependency */,
+			);
+			name = SLNavigationControllerDemoUITests;
+			productName = SLNavigationControllerDemoUITests;
+			productReference = 521ADC071D81044B00E08F4F /* SLNavigationControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521ADBDB1D81044B00E08F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					521ADBE21D81044B00E08F4F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					521ADBFB1D81044B00E08F4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 521ADBE21D81044B00E08F4F;
+					};
+					521ADC061D81044B00E08F4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 521ADBE21D81044B00E08F4F;
+					};
+				};
+			};
+			buildConfigurationList = 521ADBDE1D81044B00E08F4F /* Build configuration list for PBXProject "SLNavigationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521ADBDA1D81044B00E08F4F;
+			productRefGroup = 521ADBE41D81044B00E08F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521ADBE21D81044B00E08F4F /* SLNavigationControllerDemo */,
+				521ADBFB1D81044B00E08F4F /* SLNavigationControllerDemoTests */,
+				521ADC061D81044B00E08F4F /* SLNavigationControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521ADBE11D81044B00E08F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521ADBF61D81044B00E08F4F /* LaunchScreen.storyboard in Resources */,
+				521ADC3D1D81110C00E08F4F /* SLSecondViewController.xib in Resources */,
+				521ADC381D810D1D00E08F4F /* SLFirstViewController.xib in Resources */,
+				521ADBF31D81044B00E08F4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521ADBFA1D81044B00E08F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521ADC051D81044B00E08F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E928F37E0E681177305F04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLNavigationControllerDemo/Pods-SLNavigationControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B723C8EED1F1B7EAA3711D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B48E6A429AF6B00E4B5464A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLNavigationControllerDemo/Pods-SLNavigationControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521ADBDF1D81044B00E08F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521ADC451D813D9000E08F4F /* SLTitleViewWithViewController.m in Sources */,
+				521ADC221D81056200E08F4F /* SLViewController.m in Sources */,
+				521ADC211D81056200E08F4F /* SLNavigationController.m in Sources */,
+				521ADC371D810D1D00E08F4F /* SLFirstViewController.m in Sources */,
+				84C86E021D863D9500646BB9 /* SLPopTransitionAnimation.m in Sources */,
+				521ADBEB1D81044B00E08F4F /* AppDelegate.m in Sources */,
+				521ADC3C1D81110C00E08F4F /* SLSecondViewController.m in Sources */,
+				521ADC2A1D8108D300E08F4F /* SLListViewController.m in Sources */,
+				521ADC411D81185D00E08F4F /* SLNavigationBarButtonViewController.m in Sources */,
+				521ADBE81D81044B00E08F4F /* main.m in Sources */,
+				521ADC201D81056200E08F4F /* SLBarButtonItem.m in Sources */,
+				84C86E051D863E0800646BB9 /* SLPushTransitionAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521ADBF81D81044B00E08F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521ADC011D81044B00E08F4F /* SLNavigationControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521ADC031D81044B00E08F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521ADC0C1D81044B00E08F4F /* SLNavigationControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521ADBFE1D81044B00E08F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521ADBE21D81044B00E08F4F /* SLNavigationControllerDemo */;
+			targetProxy = 521ADBFD1D81044B00E08F4F /* PBXContainerItemProxy */;
+		};
+		521ADC091D81044B00E08F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521ADBE21D81044B00E08F4F /* SLNavigationControllerDemo */;
+			targetProxy = 521ADC081D81044B00E08F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521ADBF41D81044B00E08F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521ADBF51D81044B00E08F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521ADC0E1D81044B00E08F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521ADC0F1D81044B00E08F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521ADC111D81044B00E08F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B492E28F48C8D12BC63D5168 /* Pods-SLNavigationControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLNavigationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYZDemo.SLNavigationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		521ADC121D81044B00E08F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCD9B3D61478FCAEDA54DDD /* Pods-SLNavigationControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLNavigationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYZDemo.SLNavigationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		521ADC141D81044B00E08F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLNavigationControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYZDemo.SLNavigationControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLNavigationControllerDemo.app/SLNavigationControllerDemo";
+			};
+			name = Debug;
+		};
+		521ADC151D81044B00E08F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLNavigationControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYZDemo.SLNavigationControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLNavigationControllerDemo.app/SLNavigationControllerDemo";
+			};
+			name = Release;
+		};
+		521ADC171D81044B00E08F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLNavigationControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYZDemo.SLNavigationControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLNavigationControllerDemo;
+			};
+			name = Debug;
+		};
+		521ADC181D81044B00E08F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLNavigationControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYZDemo.SLNavigationControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLNavigationControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521ADBDE1D81044B00E08F4F /* Build configuration list for PBXProject "SLNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521ADC0E1D81044B00E08F4F /* Debug */,
+				521ADC0F1D81044B00E08F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521ADC101D81044B00E08F4F /* Build configuration list for PBXNativeTarget "SLNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521ADC111D81044B00E08F4F /* Debug */,
+				521ADC121D81044B00E08F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521ADC131D81044B00E08F4F /* Build configuration list for PBXNativeTarget "SLNavigationControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521ADC141D81044B00E08F4F /* Debug */,
+				521ADC151D81044B00E08F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521ADC161D81044B00E08F4F /* Build configuration list for PBXNativeTarget "SLNavigationControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521ADC171D81044B00E08F4F /* Debug */,
+				521ADC181D81044B00E08F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521ADBDB1D81044B00E08F4F /* Project object */;
+}
