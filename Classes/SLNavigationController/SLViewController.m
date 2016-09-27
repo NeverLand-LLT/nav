@@ -7,7 +7,7 @@
 //
 
 #import "SLViewController.h"
-#import <Masonry.h>
+#import <Masonry/Masonry.h>
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define DEFAULT_NAVIGATIONCOLOR [UIColor colorWithRed:113/255.0 green:228/255.0 blue:78/255.0 alpha:1.0f]
